@@ -27,11 +27,11 @@ about:
     Package to create shortcuts for PowerShell with an activated conda environment.
   license: BSD-3-Clause
   license_family: BSD
-  license_url: https://github.com/AnacondaRecipes/anaconda_prompt-feedstock/blob/main/LICENSE
+  license_url: https://github.com/AnacondaRecipes/anaconda_powershell_prompt-feedstock/blob/main/LICENSE
   summary: PowerShell shortcut creator for Anaconda
-  home: https://github.com/AnacondaRecipes/anaconda_prompt-feedstock
-  dev_url: https://github.com/AnacondaRecipes/anaconda_prompt-feedstock
-  doc_url: https://github.com/AnacondaRecipes/anaconda_prompt-feedstock/blob/main/README.md
+  home: https://github.com/AnacondaRecipes/anaconda_powershell_prompt-feedstock
+  dev_url: https://github.com/AnacondaRecipes/anaconda_powershell_prompt-feedstock
+  doc_url: https://github.com/AnacondaRecipes/anaconda_powershell_prompt-feedstock/blob/main/README.md
 
 extra:
   recipe-maintainers:
