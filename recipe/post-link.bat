@@ -43,7 +43,7 @@ GOTO :exit
 
 :menuinst_too_old:
     ECHO. >> "%LOGFILE%"
-    ECHO This package requires menuinst v2.1.0 in the base environment. >> "%LOGFILE%"
+    ECHO This package requires menuinst v2.1.1 in the base environment. >> "%LOGFILE%"
     ECHO Please update menuinst in the base environment and reinstall %PKG_NAME%. >> "%LOGFILE%"
     EXIT /B 1
 
