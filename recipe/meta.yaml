@@ -1,9 +1,9 @@
 package:
   name: anaconda_powershell_prompt
-  version: 1.0.0
+  version: 1.1.0
 
 build:
-  number: 1
+  number: 0
   skip: True  # [not win]
 
 requirements:
@@ -18,7 +18,7 @@ test:
 
 app:
   entry: for /D %%i in ("${CONDA_ROOT_PREFIX}") do wt -w last new-tab -p "Anaconda PowerShell Prompt (%%~ni)"
-  summary: Opens a PowerShell instance with conda activated (requires menuinst 2.1.0 or greater).
+  summary: Opens a PowerShell instance with conda activated (requires menuinst 2.1.1 or greater).
   icon: anaconda_powershell_prompt.png
   type: desk
 

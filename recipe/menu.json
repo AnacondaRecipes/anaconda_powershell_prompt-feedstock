@@ -4,10 +4,7 @@
     "menu_name": "Anaconda ({{ DISTRIBUTION_NAME }})",
     "menu_items": [
         {
-            "name": {
-                "target_environment_is_base": "Anaconda PowerShell Prompt",
-                "target_environment_is_not_base": "Anaconda PowerShell Prompt ({{ ENV_NAME }})"
-            },
+            "name": "Anaconda PowerShell Prompt__ENV_PLACEHOLDER__",
             "activate": false,
             "terminal": false,
             "icon": "{{ MENU_DIR }}/anaconda_powershell_prompt.{{ ICON_EXT }}",
@@ -23,9 +20,8 @@
             ],
             "platforms": {
                 "win": {
-                    "desktop": false,
-                    "quicklaunch": false,
-                    "terminal_profile": "Anaconda PowerShell Prompt ({{ DISTRIBUTION_NAME }})"
+                    "terminal_profile": "Anaconda PowerShell Prompt ({{ DISTRIBUTION_NAME }})",
+                    "app_user_model_id": "anaconda.PowerShell.{{ DISTRIBUTION_NAME }}.{{ ENV_NAME }}"
                 }
             }
         }
