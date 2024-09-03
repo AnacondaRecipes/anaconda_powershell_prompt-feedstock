@@ -25,9 +25,12 @@ app:
 about:
   description: |
     Package to create shortcuts for PowerShell with an activated conda environment.
-  license: BSD-3-Clause
-  license_family: BSD
-  license_file: LICENSE
+  license: BSD-3-Clause AND CC-BY-NC-ND-4.0
+  license_family: Other
+  license_file:
+    - LICENSE
+    - LICENSE-BSD-3-Clause
+    - LICENSE-CC-BY-NC-ND-4.0
   summary: PowerShell shortcut creator for Anaconda
   home: https://github.com/AnacondaRecipes/anaconda_powershell_prompt-feedstock
   dev_url: https://github.com/AnacondaRecipes/anaconda_powershell_prompt-feedstock
