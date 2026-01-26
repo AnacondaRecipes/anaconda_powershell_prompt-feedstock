@@ -8,20 +8,30 @@ SET "MENU_DIR=%PREFIX%\Menu"
 SET "MENU_PATH=%MENU_DIR%\%PKG_NAME%_menu.json"
 
 IF EXIST "%CONDA_PYTHON_EXE%" (
+    echo "woop powershell 1"
     SET PYTHON_CMD="%CONDA_PYTHON_EXE%"
     GOTO :get_menuinst
 )
 
+IF EXIST "%CONDA_EXE%" (
+    echo "woop powershell 2"
+    SET PYTHON_CMD="%CONDA_EXE%" python
+    GOTO :get_menuinst
+)
+
 IF EXIST "%PREFIX%\_conda.exe" (
+    echo "woop powershell 3"
     SET PYTHON_CMD="%PREFIX%\_conda.exe" python
     GOTO :get_menuinst
 )
 
 IF EXIST "%CONDA_ROOT_PREFIX%\_conda.exe" (
+    echo "woop powershell 4"
     SET PYTHON_CMD="%CONDA_ROOT_PREFIX%\_conda.exe" python
     GOTO :get_menuinst
 )
 
+echo "woop powershell 5"
 GOTO :menuinst_too_old
 
 :get_menuinst
