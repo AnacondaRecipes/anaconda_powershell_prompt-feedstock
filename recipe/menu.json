@@ -22,9 +22,7 @@
 		            "desktop": false,
                     "terminal_profile": "Anaconda PowerShell Prompt ({{ DISTRIBUTION_NAME }}__ENV_PLACEHOLDER_TERMINAL__)",
                     "app_user_model_id": "anaconda.PowerShell.{{ DISTRIBUTION_NAME }}.{{ ENV_NAME }}"
-                },
-		"linux": {},
-		"osx": {}
+                }
             }
         }
     ]
