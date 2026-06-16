@@ -3,13 +3,14 @@ package:
   version: 1.1.1
 
 build:
-  number: 0
+  number: 1
   skip: True  # [not win]
 
 requirements:
+  run:
+    - menuinst >=2.1.1
   run_constrained:
     - anaconda-navigator >=1.9.8
-    - menuinst >=2.1.1
 
 test:
   commands:
